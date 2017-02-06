@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1303033F1E478E970086823C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1303033E1E478E970086823C /* AppDelegate.m */; };
+		130303421E478E970086823C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 130303411E478E970086823C /* main.m */; };
+		130303451E478E970086823C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 130303441E478E970086823C /* ViewController.m */; };
+		130303471E478E970086823C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 130303461E478E970086823C /* Assets.xcassets */; };
+		1303034A1E478E970086823C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 130303481E478E970086823C /* Main.storyboard */; };
+		130303551E478E970086823C /* iBootPwnrTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 130303541E478E970086823C /* iBootPwnrTests.m */; };
+		130303601E478E970086823C /* iBootPwnrUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1303035F1E478E970086823C /* iBootPwnrUITests.m */; };
+		1329F8D21E47FF8800010DF7 /* white.png in Resources */ = {isa = PBXBuildFile; fileRef = 1329F8D11E47FF8800010DF7 /* white.png */; };
+		1329F8D41E48012800010DF7 /* Panel.png in Resources */ = {isa = PBXBuildFile; fileRef = 1329F8D31E48012800010DF7 /* Panel.png */; };
+		1329F8D81E4803D000010DF7 /* BG.png in Resources */ = {isa = PBXBuildFile; fileRef = 1329F8D71E4803D000010DF7 /* BG.png */; };
+		1329F8E01E480A3600010DF7 /* iDroidTab.png in Resources */ = {isa = PBXBuildFile; fileRef = 1329F8DF1E480A3600010DF7 /* iDroidTab.png */; };
+		1329F8E31E480AC600010DF7 /* HomeTab.png in Resources */ = {isa = PBXBuildFile; fileRef = 1329F8E11E480AC600010DF7 /* HomeTab.png */; };
+		1329F8E41E480AC600010DF7 /* OiBTab.png in Resources */ = {isa = PBXBuildFile; fileRef = 1329F8E21E480AC600010DF7 /* OiBTab.png */; };
+		1331E88D1E480E5B004C085A /* iBootPwnr.png in Resources */ = {isa = PBXBuildFile; fileRef = 1331E88C1E480E5B004C085A /* iBootPwnr.png */; };
+		134B350A1E482667004D5438 /* dockConnector.png in Resources */ = {isa = PBXBuildFile; fileRef = 134B35091E482667004D5438 /* dockConnector.png */; };
+		134B350E1E482694004D5438 /* iPodTouchButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 134B350B1E482694004D5438 /* iPodTouchButton.png */; };
+		134B350F1E482694004D5438 /* iPhone3GButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 134B350C1E482694004D5438 /* iPhone3GButton.png */; };
+		134B35101E482694004D5438 /* iPhone2GButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 134B350D1E482694004D5438 /* iPhone2GButton.png */; };
+		134B35121E4826A1004D5438 /* iTunes.png in Resources */ = {isa = PBXBuildFile; fileRef = 134B35111E4826A1004D5438 /* iTunes.png */; };
+		134B35141E4827BF004D5438 /* arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 134B35131E4827BF004D5438 /* arrow.png */; };
+		134B35181E4830F9004D5438 /* OpeniBoot.png in Resources */ = {isa = PBXBuildFile; fileRef = 134B35171E4830F9004D5438 /* OpeniBoot.png */; };
+		13856DF51E479E25008F4347 /* loadibec in Resources */ = {isa = PBXBuildFile; fileRef = 13856DF31E479E25008F4347 /* loadibec */; };
+		13856DF61E479E25008F4347 /* oibc in Resources */ = {isa = PBXBuildFile; fileRef = 13856DF41E479E25008F4347 /* oibc */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		130303511E478E970086823C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 130303321E478E970086823C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 130303391E478E970086823C;
+			remoteInfo = iBootPwnr;
+		};
+		1303035C1E478E970086823C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 130303321E478E970086823C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 130303391E478E970086823C;
+			remoteInfo = iBootPwnr;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1303033A1E478E970086823C /* iBootPwnr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iBootPwnr.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1303033D1E478E970086823C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1303033E1E478E970086823C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		130303411E478E970086823C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		130303431E478E970086823C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		130303441E478E970086823C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		130303461E478E970086823C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		130303491E478E970086823C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1303034B1E478E970086823C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		130303501E478E970086823C /* iBootPwnrTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iBootPwnrTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		130303541E478E970086823C /* iBootPwnrTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iBootPwnrTests.m; sourceTree = "<group>"; };
+		130303561E478E970086823C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1303035B1E478E970086823C /* iBootPwnrUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iBootPwnrUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1303035F1E478E970086823C /* iBootPwnrUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iBootPwnrUITests.m; sourceTree = "<group>"; };
+		130303611E478E970086823C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1329F8D11E47FF8800010DF7 /* white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = white.png; sourceTree = "<group>"; };
+		1329F8D31E48012800010DF7 /* Panel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Panel.png; sourceTree = "<group>"; };
+		1329F8D71E4803D000010DF7 /* BG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BG.png; sourceTree = "<group>"; };
+		1329F8DF1E480A3600010DF7 /* iDroidTab.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iDroidTab.png; sourceTree = "<group>"; };
+		1329F8E11E480AC600010DF7 /* HomeTab.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HomeTab.png; sourceTree = "<group>"; };
+		1329F8E21E480AC600010DF7 /* OiBTab.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = OiBTab.png; sourceTree = "<group>"; };
+		1331E88C1E480E5B004C085A /* iBootPwnr.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iBootPwnr.png; sourceTree = "<group>"; };
+		134B35091E482667004D5438 /* dockConnector.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dockConnector.png; sourceTree = "<group>"; };
+		134B350B1E482694004D5438 /* iPodTouchButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPodTouchButton.png; sourceTree = "<group>"; };
+		134B350C1E482694004D5438 /* iPhone3GButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPhone3GButton.png; sourceTree = "<group>"; };
+		134B350D1E482694004D5438 /* iPhone2GButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPhone2GButton.png; sourceTree = "<group>"; };
+		134B35111E4826A1004D5438 /* iTunes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iTunes.png; sourceTree = "<group>"; };
+		134B35131E4827BF004D5438 /* arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow.png; sourceTree = "<group>"; };
+		134B35171E4830F9004D5438 /* OpeniBoot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = OpeniBoot.png; sourceTree = "<group>"; };
+		13856DF31E479E25008F4347 /* loadibec */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = loadibec; sourceTree = "<group>"; };
+		13856DF41E479E25008F4347 /* oibc */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = oibc; sourceTree = "<group>"; };
+		13856DF71E479E2A008F4347 /* openiboot-iPhone2G.img3 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "openiboot-iPhone2G.img3"; sourceTree = "<group>"; };
+		13856DF81E479E2A008F4347 /* openiboot-iPod1G.img3 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "openiboot-iPod1G.img3"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		130303371E478E970086823C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1303034D1E478E970086823C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		130303581E478E970086823C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		130303311E478E970086823C = {
+			isa = PBXGroup;
+			children = (
+				1303033C1E478E970086823C /* iBootPwnr */,
+				130303531E478E970086823C /* iBootPwnrTests */,
+				1303035E1E478E970086823C /* iBootPwnrUITests */,
+				1303033B1E478E970086823C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1303033B1E478E970086823C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1303033A1E478E970086823C /* iBootPwnr.app */,
+				130303501E478E970086823C /* iBootPwnrTests.xctest */,
+				1303035B1E478E970086823C /* iBootPwnrUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1303033C1E478E970086823C /* iBootPwnr */ = {
+			isa = PBXGroup;
+			children = (
+				1303033D1E478E970086823C /* AppDelegate.h */,
+				1303033E1E478E970086823C /* AppDelegate.m */,
+				130303431E478E970086823C /* ViewController.h */,
+				130303441E478E970086823C /* ViewController.m */,
+				130303461E478E970086823C /* Assets.xcassets */,
+				130303481E478E970086823C /* Main.storyboard */,
+				1303034B1E478E970086823C /* Info.plist */,
+				130303401E478E970086823C /* Supporting Files */,
+			);
+			path = iBootPwnr;
+			sourceTree = "<group>";
+		};
+		130303401E478E970086823C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1329F8DF1E480A3600010DF7 /* iDroidTab.png */,
+				13856DF31E479E25008F4347 /* loadibec */,
+				13856DF81E479E2A008F4347 /* openiboot-iPod1G.img3 */,
+				1329F8E11E480AC600010DF7 /* HomeTab.png */,
+				134B35131E4827BF004D5438 /* arrow.png */,
+				1329F8E21E480AC600010DF7 /* OiBTab.png */,
+				1331E88C1E480E5B004C085A /* iBootPwnr.png */,
+				134B35171E4830F9004D5438 /* OpeniBoot.png */,
+				134B35091E482667004D5438 /* dockConnector.png */,
+				1329F8D31E48012800010DF7 /* Panel.png */,
+				134B35111E4826A1004D5438 /* iTunes.png */,
+				134B350B1E482694004D5438 /* iPodTouchButton.png */,
+				134B350C1E482694004D5438 /* iPhone3GButton.png */,
+				134B350D1E482694004D5438 /* iPhone2GButton.png */,
+				1329F8D11E47FF8800010DF7 /* white.png */,
+				13856DF71E479E2A008F4347 /* openiboot-iPhone2G.img3 */,
+				1329F8D71E4803D000010DF7 /* BG.png */,
+				13856DF41E479E25008F4347 /* oibc */,
+				130303411E478E970086823C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		130303531E478E970086823C /* iBootPwnrTests */ = {
+			isa = PBXGroup;
+			children = (
+				130303541E478E970086823C /* iBootPwnrTests.m */,
+				130303561E478E970086823C /* Info.plist */,
+			);
+			path = iBootPwnrTests;
+			sourceTree = "<group>";
+		};
+		1303035E1E478E970086823C /* iBootPwnrUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1303035F1E478E970086823C /* iBootPwnrUITests.m */,
+				130303611E478E970086823C /* Info.plist */,
+			);
+			path = iBootPwnrUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		130303391E478E970086823C /* iBootPwnr */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 130303641E478E970086823C /* Build configuration list for PBXNativeTarget "iBootPwnr" */;
+			buildPhases = (
+				130303361E478E970086823C /* Sources */,
+				130303371E478E970086823C /* Frameworks */,
+				130303381E478E970086823C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iBootPwnr;
+			productName = iBootPwnr;
+			productReference = 1303033A1E478E970086823C /* iBootPwnr.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1303034F1E478E970086823C /* iBootPwnrTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 130303671E478E970086823C /* Build configuration list for PBXNativeTarget "iBootPwnrTests" */;
+			buildPhases = (
+				1303034C1E478E970086823C /* Sources */,
+				1303034D1E478E970086823C /* Frameworks */,
+				1303034E1E478E970086823C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				130303521E478E970086823C /* PBXTargetDependency */,
+			);
+			name = iBootPwnrTests;
+			productName = iBootPwnrTests;
+			productReference = 130303501E478E970086823C /* iBootPwnrTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1303035A1E478E970086823C /* iBootPwnrUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1303036A1E478E970086823C /* Build configuration list for PBXNativeTarget "iBootPwnrUITests" */;
+			buildPhases = (
+				130303571E478E970086823C /* Sources */,
+				130303581E478E970086823C /* Frameworks */,
+				130303591E478E970086823C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1303035D1E478E970086823C /* PBXTargetDependency */,
+			);
+			name = iBootPwnrUITests;
+			productName = iBootPwnrUITests;
+			productReference = 1303035B1E478E970086823C /* iBootPwnrUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		130303321E478E970086823C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = nkomarn;
+				TargetAttributes = {
+					130303391E478E970086823C = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = VPZXR3DR92;
+						ProvisioningStyle = Automatic;
+					};
+					1303034F1E478E970086823C = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = VPZXR3DR92;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 130303391E478E970086823C;
+					};
+					1303035A1E478E970086823C = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = VPZXR3DR92;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 130303391E478E970086823C;
+					};
+				};
+			};
+			buildConfigurationList = 130303351E478E970086823C /* Build configuration list for PBXProject "iBootPwnr" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 130303311E478E970086823C;
+			productRefGroup = 1303033B1E478E970086823C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				130303391E478E970086823C /* iBootPwnr */,
+				1303034F1E478E970086823C /* iBootPwnrTests */,
+				1303035A1E478E970086823C /* iBootPwnrUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		130303381E478E970086823C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1329F8E31E480AC600010DF7 /* HomeTab.png in Resources */,
+				134B35181E4830F9004D5438 /* OpeniBoot.png in Resources */,
+				134B350E1E482694004D5438 /* iPodTouchButton.png in Resources */,
+				134B35101E482694004D5438 /* iPhone2GButton.png in Resources */,
+				1329F8E41E480AC600010DF7 /* OiBTab.png in Resources */,
+				134B350A1E482667004D5438 /* dockConnector.png in Resources */,
+				134B35121E4826A1004D5438 /* iTunes.png in Resources */,
+				130303471E478E970086823C /* Assets.xcassets in Resources */,
+				1331E88D1E480E5B004C085A /* iBootPwnr.png in Resources */,
+				1303034A1E478E970086823C /* Main.storyboard in Resources */,
+				13856DF51E479E25008F4347 /* loadibec in Resources */,
+				134B35141E4827BF004D5438 /* arrow.png in Resources */,
+				1329F8E01E480A3600010DF7 /* iDroidTab.png in Resources */,
+				1329F8D81E4803D000010DF7 /* BG.png in Resources */,
+				13856DF61E479E25008F4347 /* oibc in Resources */,
+				1329F8D21E47FF8800010DF7 /* white.png in Resources */,
+				134B350F1E482694004D5438 /* iPhone3GButton.png in Resources */,
+				1329F8D41E48012800010DF7 /* Panel.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1303034E1E478E970086823C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		130303591E478E970086823C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		130303361E478E970086823C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				130303451E478E970086823C /* ViewController.m in Sources */,
+				130303421E478E970086823C /* main.m in Sources */,
+				1303033F1E478E970086823C /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1303034C1E478E970086823C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				130303551E478E970086823C /* iBootPwnrTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		130303571E478E970086823C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				130303601E478E970086823C /* iBootPwnrUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		130303521E478E970086823C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 130303391E478E970086823C /* iBootPwnr */;
+			targetProxy = 130303511E478E970086823C /* PBXContainerItemProxy */;
+		};
+		1303035D1E478E970086823C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 130303391E478E970086823C /* iBootPwnr */;
+			targetProxy = 1303035C1E478E970086823C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		130303481E478E970086823C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				130303491E478E970086823C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		130303621E478E970086823C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		130303631E478E970086823C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		130303651E478E970086823C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = VPZXR3DR92;
+				INFOPLIST_FILE = iBootPwnr/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nkomarn.iBootPwnr;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		130303661E478E970086823C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = VPZXR3DR92;
+				INFOPLIST_FILE = iBootPwnr/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nkomarn.iBootPwnr;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		130303681E478E970086823C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = VPZXR3DR92;
+				INFOPLIST_FILE = iBootPwnrTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nkomarn.iBootPwnrTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iBootPwnr.app/Contents/MacOS/iBootPwnr";
+			};
+			name = Debug;
+		};
+		130303691E478E970086823C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = VPZXR3DR92;
+				INFOPLIST_FILE = iBootPwnrTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nkomarn.iBootPwnrTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iBootPwnr.app/Contents/MacOS/iBootPwnr";
+			};
+			name = Release;
+		};
+		1303036B1E478E970086823C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = VPZXR3DR92;
+				INFOPLIST_FILE = iBootPwnrUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nkomarn.iBootPwnrUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = iBootPwnr;
+			};
+			name = Debug;
+		};
+		1303036C1E478E970086823C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = VPZXR3DR92;
+				INFOPLIST_FILE = iBootPwnrUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nkomarn.iBootPwnrUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = iBootPwnr;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		130303351E478E970086823C /* Build configuration list for PBXProject "iBootPwnr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				130303621E478E970086823C /* Debug */,
+				130303631E478E970086823C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		130303641E478E970086823C /* Build configuration list for PBXNativeTarget "iBootPwnr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				130303651E478E970086823C /* Debug */,
+				130303661E478E970086823C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		130303671E478E970086823C /* Build configuration list for PBXNativeTarget "iBootPwnrTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				130303681E478E970086823C /* Debug */,
+				130303691E478E970086823C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1303036A1E478E970086823C /* Build configuration list for PBXNativeTarget "iBootPwnrUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1303036B1E478E970086823C /* Debug */,
+				1303036C1E478E970086823C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 130303321E478E970086823C /* Project object */;
+}
