@@ -9,6 +9,14 @@
 #import <Cocoa/Cocoa.h>
 
 @interface ViewController : NSViewController
+@property (strong) IBOutlet NSButton *iPhone2GButton;
+@property (strong) IBOutlet NSButton *iPhone3GButton;
+@property (strong) IBOutlet NSButton *iPodTouch1GButton;
+
+
+@property (strong) IBOutlet NSProgressIndicator *activityIndicator;
+@property (strong) IBOutlet NSTextField *currentActivity;
+@property (strong) IBOutlet NSTextField *versionLabel;
 
 
 @end

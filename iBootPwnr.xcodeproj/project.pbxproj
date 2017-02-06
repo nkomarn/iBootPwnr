@@ -14,6 +14,16 @@
 		1303034A1E478E970086823C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 130303481E478E970086823C /* Main.storyboard */; };
 		130303551E478E970086823C /* iBootPwnrTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 130303541E478E970086823C /* iBootPwnrTests.m */; };
 		130303601E478E970086823C /* iBootPwnrUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1303035F1E478E970086823C /* iBootPwnrUITests.m */; };
+		130344071E4815E300688A1F /* FAB.png in Resources */ = {isa = PBXBuildFile; fileRef = 130344061E4815E300688A1F /* FAB.png */; };
+		1329F8D21E47FF8800010DF7 /* white.png in Resources */ = {isa = PBXBuildFile; fileRef = 1329F8D11E47FF8800010DF7 /* white.png */; };
+		1329F8D41E48012800010DF7 /* Panel.png in Resources */ = {isa = PBXBuildFile; fileRef = 1329F8D31E48012800010DF7 /* Panel.png */; };
+		1329F8D81E4803D000010DF7 /* BG.png in Resources */ = {isa = PBXBuildFile; fileRef = 1329F8D71E4803D000010DF7 /* BG.png */; };
+		1329F8E01E480A3600010DF7 /* iDroidTab.png in Resources */ = {isa = PBXBuildFile; fileRef = 1329F8DF1E480A3600010DF7 /* iDroidTab.png */; };
+		1329F8E31E480AC600010DF7 /* HomeTab.png in Resources */ = {isa = PBXBuildFile; fileRef = 1329F8E11E480AC600010DF7 /* HomeTab.png */; };
+		1329F8E41E480AC600010DF7 /* OiBTab.png in Resources */ = {isa = PBXBuildFile; fileRef = 1329F8E21E480AC600010DF7 /* OiBTab.png */; };
+		1331E88D1E480E5B004C085A /* iBootPwnr.png in Resources */ = {isa = PBXBuildFile; fileRef = 1331E88C1E480E5B004C085A /* iBootPwnr.png */; };
+		13856DF51E479E25008F4347 /* loadibec in Resources */ = {isa = PBXBuildFile; fileRef = 13856DF31E479E25008F4347 /* loadibec */; };
+		13856DF61E479E25008F4347 /* oibc in Resources */ = {isa = PBXBuildFile; fileRef = 13856DF41E479E25008F4347 /* oibc */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +59,18 @@
 		1303035B1E478E970086823C /* iBootPwnrUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iBootPwnrUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1303035F1E478E970086823C /* iBootPwnrUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iBootPwnrUITests.m; sourceTree = "<group>"; };
 		130303611E478E970086823C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		130344061E4815E300688A1F /* FAB.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FAB.png; sourceTree = "<group>"; };
+		1329F8D11E47FF8800010DF7 /* white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = white.png; sourceTree = "<group>"; };
+		1329F8D31E48012800010DF7 /* Panel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Panel.png; sourceTree = "<group>"; };
+		1329F8D71E4803D000010DF7 /* BG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BG.png; sourceTree = "<group>"; };
+		1329F8DF1E480A3600010DF7 /* iDroidTab.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iDroidTab.png; sourceTree = "<group>"; };
+		1329F8E11E480AC600010DF7 /* HomeTab.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HomeTab.png; sourceTree = "<group>"; };
+		1329F8E21E480AC600010DF7 /* OiBTab.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = OiBTab.png; sourceTree = "<group>"; };
+		1331E88C1E480E5B004C085A /* iBootPwnr.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iBootPwnr.png; sourceTree = "<group>"; };
+		13856DF31E479E25008F4347 /* loadibec */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = loadibec; sourceTree = "<group>"; };
+		13856DF41E479E25008F4347 /* oibc */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = oibc; sourceTree = "<group>"; };
+		13856DF71E479E2A008F4347 /* openiboot-iPhone2G.img3 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "openiboot-iPhone2G.img3"; sourceTree = "<group>"; };
+		13856DF81E479E2A008F4347 /* openiboot-iPod1G.img3 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "openiboot-iPod1G.img3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +136,18 @@
 		130303401E478E970086823C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				1329F8DF1E480A3600010DF7 /* iDroidTab.png */,
+				13856DF31E479E25008F4347 /* loadibec */,
+				13856DF81E479E2A008F4347 /* openiboot-iPod1G.img3 */,
+				1329F8E11E480AC600010DF7 /* HomeTab.png */,
+				1329F8E21E480AC600010DF7 /* OiBTab.png */,
+				1331E88C1E480E5B004C085A /* iBootPwnr.png */,
+				130344061E4815E300688A1F /* FAB.png */,
+				1329F8D31E48012800010DF7 /* Panel.png */,
+				1329F8D11E47FF8800010DF7 /* white.png */,
+				13856DF71E479E2A008F4347 /* openiboot-iPhone2G.img3 */,
+				1329F8D71E4803D000010DF7 /* BG.png */,
+				13856DF41E479E25008F4347 /* oibc */,
 				130303411E478E970086823C /* main.m */,
 			);
 			name = "Supporting Files";
@@ -246,8 +280,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1329F8E31E480AC600010DF7 /* HomeTab.png in Resources */,
+				1329F8E41E480AC600010DF7 /* OiBTab.png in Resources */,
 				130303471E478E970086823C /* Assets.xcassets in Resources */,
+				130344071E4815E300688A1F /* FAB.png in Resources */,
+				1331E88D1E480E5B004C085A /* iBootPwnr.png in Resources */,
 				1303034A1E478E970086823C /* Main.storyboard in Resources */,
+				13856DF51E479E25008F4347 /* loadibec in Resources */,
+				1329F8E01E480A3600010DF7 /* iDroidTab.png in Resources */,
+				1329F8D81E4803D000010DF7 /* BG.png in Resources */,
+				13856DF61E479E25008F4347 /* oibc in Resources */,
+				1329F8D21E47FF8800010DF7 /* white.png in Resources */,
+				1329F8D41E48012800010DF7 /* Panel.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -507,6 +551,7 @@
 				130303661E478E970086823C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		130303671E478E970086823C /* Build configuration list for PBXNativeTarget "iBootPwnrTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +560,7 @@
 				130303691E478E970086823C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1303036A1E478E970086823C /* Build configuration list for PBXNativeTarget "iBootPwnrUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +569,7 @@
 				1303036C1E478E970086823C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
